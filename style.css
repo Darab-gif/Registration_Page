@@ -109,7 +109,7 @@ input[type="submit"]:hover {
   .home {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin-left: 0px;
     margin-top: 10px;
   }
   .infoPage {
@@ -119,7 +119,7 @@ input[type="submit"]:hover {
   }
 
   .infoPage h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 800;
   }
 
@@ -132,21 +132,28 @@ input[type="submit"]:hover {
   }
 
   .formPage {
-    margin-left: auto;
+    margin-left: 0px;
     margin-top: 35px;
   }
+  .formHeader {
+    padding: 15px;
+    width: 100%;
+  }
   form {
-    padding: 40px;
+    padding: 25px;
+    width: 100%;
+    margin-left: auto;
   }
   input[type="text"],
   input[type="email"],
   input[type="password"] {
-    width: auto;
+    width: 100%;
     margin-left: auto;
   }
   input[type="submit"] {
-    width: auto;
+    width: 100%;
     margin-left: auto;
+    font-size: 12px;
   }
   .formFooter {
     padding-left: 12px;
